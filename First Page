@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <style>
+ 
+        /* Styling the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+          
+        /* Styling section, giving background
+            image and dimensions */
+        section {
+            width: 100%;
+            height: 100vh;
+            background:
+ url('https://th.bing.com/th/id/R.4393820c60dc5090619c6f63fb010ff8?rik=AmDN3Eeg7iMSEg&riu=http%3a%2f%2fwww.kingsofcarhire.in%2fwp-content%2fuploads%2f2016%2f05%2fparty-decorator-170-corporate-event-decorations-1024-x-683.jpg&ehk=VZlBJfhxLkFm5X21AzMX8Vqr7wEFiTP%2b7viSp2LGPVY%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+        }
+          
+        /* Styling the left floating section */
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the background of
+            left floating section */
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect 
+            of left floating section */
+        section .leftBox .content:hover {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of left
+            floating section */
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+          
+        /* Styling the paragraph of
+            left floating section */
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+          
+        /* Styling the three events section */
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            float: right;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the links of
+        the events section */
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the lists of the event section */
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+          
+        /* Styling the time class of events section */
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect
+            of events section */
+        section .events ul li:hover .time {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of time
+            class of events section */
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+          
+        /* Styling the texts of time
+        class of events section */
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+          
+        /* Styling the details
+        class of events section */
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+          
+        /* Styling the header of the
+        details class of events section */
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+          
+        /* Styling the lists of details
+        class of events section */
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+          
+        /* Styling the links of details
+        class of events section */
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+          
+        /* Styling the details class's hover effect */
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
+    </style>
+</head>
+  
+<body>
+    <section>
+        <div class="leftBox">
+            <div class="content">
+                <h1>
+                    Event Stars
+                </h1>
+                 
+<p>
+    "EVENT STARS" - What a shiny name same is the work we are here to provide an ease to your problems regarding Event hosting and bookings platform for various events.
+    Here we organize various events like Hackathons(Techincal purpose) , various cultural events ,gatherings, comedy shows , theatre shows , music festivals and everything else you are looking for
+    We provide a easy platform for the Organizers to provide details about there various events
+    We also provide a platform for customers where we give them information about the events and allow them to register themselves for the events in which they are interested .
+</p>
+                </p>
+ 
+            </div>
+        </div>
+  
+        <div class="events">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h2>
+                            1 <br><span>MANAGE</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Admin
+                        </h3>
+                         
+<p>
+    Admin family can login themselves here
+                        </p>
+ 
+  
+                        <a href="#">View Details</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            2 <br><span>SERVE</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Organizers
+                        </h3>
+                         
+<p> The people planning to organize any type of event can register themselves here
+                        </p>
+ 
+                        <a href="#">View Details</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            3 <br><span>ENJOY</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                           Customer
+                        </h3>
+                         
+<p>
+                           Thinking of having fun ! register here to enjoy diferent events
+                        </p>
+ 
+  
+                        <a href="#">View Details</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+  
+</html>
+<ul>
+                    <li class="item"><a href="/" class="link">Admin</a></li>
+                    <li class="item"><a href="/info.html" class="link">Organizers</a></li>
+                    <li class="item"><a href="/contact.html" class="link">Customer</a></li>
+                </ul>
